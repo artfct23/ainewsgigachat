@@ -1,0 +1,44 @@
+# --- Секреты и конфиденциальность ---
+.env
+.env.*
+auth_data.json
+credentials.py
+
+# --- Python и виртуальное окружение ---
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- PyCharm (JetBrains) ---
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# --- Базы данных и Docker ---
+postgres_data/
+pgdata/
+*.sql
+*.sqlite3
+
+# --- Логи и временные файлы ---
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# --- Системные файлы ---
+.DS_Store
+Thumbs.db
